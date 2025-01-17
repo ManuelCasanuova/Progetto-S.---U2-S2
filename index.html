@@ -14,13 +14,10 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body data-bs-theme="dark">
+    <!--HEADER e NAVBAR-->
     <div class="container-sm">
-      <!--HEADER e NAVBAR-->
-
       <nav class="navbar navbar-expand-lg">
-        <a class="navbar-brand" href="#">
-          <div class="logoimg"><img src="" alt="Logo Netflix" /></div
-        ></a>
+        <a class="navbar-brand" href="#"> <img height="40" src="./assets/netflix_logo.png" alt="Logo Netflix" /></a>
         <button
           class="navbar-toggler"
           type="button"
@@ -51,34 +48,62 @@
             </li>
           </ul>
           <div class="d-flex">
-            <i class="bi bi-search"></i>
-            <p>KIDS</p>
-            <i class="bi bi-bell-fill text-white"></i>
-
-            <div class="btn-group ">
-                <button type="button" class="btn btn-secondary dropdown-toggle bg-dark border border-none" data-bs-toggle="dropdown" aria-expanded="false">
-                  Right-aligned menu example
-                </button>
-                <ul class="dropdown-menu dropdown-menu-end">
-                  <li><button class="dropdown-item" type="button">Profile</button></li>
-                  <li><button class="dropdown-item" type="button">Settings</button></li>
-                  <li><button class="dropdown-item" type="button">Log Out</button></li>
-                </ul>
-              </div>
-
-
-
-
-
-
-
-
-
-
-
-
-            </div>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-search text-white"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">KIDS</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="bi bi-bell-fill text-white"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">
+                  <div class="btn-group">
+                    <button
+                      type="button"
+                      class="btn btn-secondary dropdown-toggle bg-dark border border-dark"
+                      data-bs-toggle="dropdown"
+                      aria-expanded="false"
+                    >
+                      <img height="35" src="./assets/avatar.png" alt="Profilo" />
+                    </button>
+                    <ul class="dropdown-menu dropdown-menu-end">
+                      <li><button class="dropdown-item" type="button">Profile</button></li>
+                      <li><button class="dropdown-item" type="button">Settings</button></li>
+                      <li><button class="dropdown-item" type="button">Log Out</button></li>
+                    </ul>
+                  </div></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
       </nav>
+
+      <section class="hero">
+        <div class="d-flex align-items-center">
+          <h1>TV Shows</h1>
+          <div class="dropdown border border-white">
+            <button
+              class="btn btn-secondary dropdown-toggle bg-dark"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              Genres
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Comedy</a></li>
+              <li><a class="dropdown-item" href="#">Romantics</a></li>
+              <li><a class="dropdown-item" href="#">Fantasy</a></li>
+              <li><a class="dropdown-item" href="#">Documentary</a></li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
       <!--CHIUSURA CONTAINER-->
     </div>
