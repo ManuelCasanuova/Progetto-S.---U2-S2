@@ -1,0 +1,27 @@
+.herom {
+  display: flex;
+}
+
+.icon > button {
+  background-color: transparent;
+}
+
+.icon > button i {
+  padding-inline: 2px;
+}
+
+.divfooter {
+  margin-inline: 20%;
+  background-color: red;
+  height: 100%;
+}
+
+.divfooter ul {
+  margin: 0;
+  padding: 0;
+}
+
+.divfooter ul li {
+  display: inline-block;
+  margin: 0;
+}
