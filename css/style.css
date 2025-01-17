@@ -27,17 +27,8 @@ a {
   display: flex;
 }
 
-.icon > button {
-  background-color: transparent;
-}
-
-.icon > button i {
-  margin-inline: auto;
-}
-
 .divfooter {
   margin-inline: 20%;
-
   height: 100%;
 }
 
@@ -48,14 +39,6 @@ a {
 
 .divfooter ul li {
   display: inline-block;
-  margin: 0;
-}
-
-footer button {
-  background-color: transparent;
-  font-size: 0.6rem;
-  color: grey;
-  border: 1px grey;
 }
 
 footer div a,
