@@ -1,3 +1,8 @@
+a {
+  text-decoration: none;
+  color: grey;
+}
+
 .herom {
   display: flex;
 }
@@ -12,7 +17,7 @@
 
 .divfooter {
   margin-inline: 20%;
-  background-color: red;
+
   height: 100%;
 }
 
@@ -24,4 +29,17 @@
 .divfooter ul li {
   display: inline-block;
   margin: 0;
+}
+
+footer button {
+  background-color: transparent;
+  font-size: 0.6rem;
+  color: grey;
+  border: 1px grey;
+}
+
+footer div a,
+p {
+  font-size: 0.6rem;
+  color: grey;
 }
