@@ -12,7 +12,7 @@ a {
 }
 
 .icon > button i {
-  padding-inline: 2px;
+  margin-inline: auto;
 }
 
 .divfooter {
@@ -42,4 +42,13 @@ footer div a,
 p {
   font-size: 0.6rem;
   color: grey;
+}
+
+.laterale {
+  margin-inline: auto;
+  padding-inline: 30%;
+}
+
+.col-12 {
+  padding: 0;
 }
