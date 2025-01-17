@@ -38,7 +38,7 @@
               <h4>Language:</h4>
               <div class="dropdown">
                 <button
-                  class="btn btn-secondary dropdown-toggle"
+                  class="btn btn-secondary dropdown-toggle px-2 py-0"
                   type="button"
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
@@ -56,23 +56,41 @@
             <div class="border-bottom pb-4 border-secondary mt-4">
               <h4>Maturity Settings:</h4>
               <div class="dropdown">
-                <button type="button" class="btn btn-secondary mb-4">ALL MATURITY RATINGS</button>
+                <button type="button" class="btn btn-secondary mb-3 px-2 py-0">ALL MATURITY RATINGS</button>
                 <p>Show title of <b>all maturity ratings</b>for this profile</p>
-                <button type="button" class="btn btn-secondary">EDIT</button>
+                <button type="button" class="btn btn-secondary px-2 py-0">EDIT</button>
               </div>
             </div>
 
-            <div class="border-bottom pb-4 border-secondary mt-4">
+            <div class="mt-4">
               <h4>Autoplay controls</h4>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  ><p>Autoplay next episode in series on all devices.</p></label
+                >
+              </div>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox1" value="option1" />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  ><p>Autoplay previews while browsing on all devices.</p></label
+                >
+              </div>
             </div>
           </div>
         </div>
 
         <div class="row">
-          <div class="col-12 d-flex mt-4">
-            <div class="col-12 col-md-4"><button type="button" class="btn btn-secondary">SAVE</button></div>
-            <div class="col-12 col-md-4"><button type="button" class="btn btn-secondary">CANCEL</button></div>
-            <div class="col-12 col-md-4"><button type="button" class="btn btn-secondary">DELETE PROFILE</button></div>
+          <div class="col-12 d-flex mt-4 border-top border-secondary pt-4">
+            <div class="col-12 col-md-4">
+              <button type="button" class="btn btn-secondary px-2 py-0">SAVE</button>
+            </div>
+            <div class="col-12 col-md-4">
+              <button type="button" class="btn btn-secondary px-2 py-0">CANCEL</button>
+            </div>
+            <div class="col-12 col-md-4">
+              <button type="button" class="btn btn-secondary px-2 py-0">DELETE PROFILE</button>
+            </div>
           </div>
         </div>
       </div>
